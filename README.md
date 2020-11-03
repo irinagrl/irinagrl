@@ -1,16 +1,13 @@
-### Hi there 👋
+### Hi there! Irina is here 👋
 
-<!--
-**paranoiacview/paranoiacview** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm on a new career path to Front-end development. I have a huge love for the field and enormous desire to continuously broaden my knowledge. 
 
-Here are some ideas to get you started:
+- I'm currently looking for a remote job.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- I have knowledge in  JS, HTML, CSS, Git, Webpack, GitHub Pages and learning React.
+
+- I'm a minimalist and a rationalist and I desire to write a beautiful but understandable code.
+
+- I love new places thus walking around (a lot), travelling, and living in different cities, countries and continents. 
+
+- Please feel free to contact me by email: irina.moysevich@gmail.com.
