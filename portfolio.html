@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="irina moysevich's portfolio">
+    <meta name="author" content="irina moysevich">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>irina m.</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16">
+    <!-- <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.index.css %>"> -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="./images/author.png" alt="author" class="author__pic">
+            <div class="author__about">
+                <h2 class="author__info">irina moysevich</h2>
+                <h3 class="author__info">front-end developer</h3>
+            </div>
+        </div>
+        <div class="header__links">
+            <a href="index.html" class="header__link">
+                <img src="./images/tic_tac_toe.jpg" alt="noughts and crosses board" class="header__icons">
+                <span class="header__icons_text">game</span>
+            </a>
+
+            <a href="#projects" class="header__link">
+                <img src="./images/projects.jpg" alt="projects" class="header__icons">
+                <span class="header__icons_text">works</span>
+            </a>
+
+            <a href="#skills" class="header__link">
+                <img src="./images/skills.jpg" alt="skills" class="header__icons">
+                <span class="header__icons_text">skills</span>
+            </a>
+        </div>
+
+    </header>
+
+    <section class="section" id="projects">
+        <h3 class="">projects</h3>
+
+        <div class="projects">
+            <!-- <h2 class="">projects</h2> -->
+
+            <div class="project__link">
+                <img src="images/web__news.jpg" class="project__image" alt="news webpage image">
+                <div class="project__link_container">
+                    <a href="https://github.com/paranoiacview/news" class="project__link_button"
+                        target="_blank">github</a>
+                    <a href="https://paranoiacview.github.io/news/" class="project__link_button"
+                        target="_blank">webpage</a>
+                </div>
+            </div>
+
+            <div class="project__link">
+                <img src="images/web__mesto.jpg" class="project__image" alt="mesto webpage image">
+                <div class="project__link_container">
+                    <a href="https://github.com/paranoiacview/mesto" class="project__link_button"
+                        target="_blank">github</a>
+                    <a href="https://paranoiacview.github.io/mesto/" class="project__link_button"
+                        target="_blank">webpage</a>
+                </div>
+            </div>
+
+
+            <!-- <a href="" class="project__link">
+                <img src="images/project__image.jpg" class="project__image" alt="trip webpage image">
+            </a>
+            <a href="" class="project__link">
+                <img src="images/project__image.jpg" class="project__image" alt="webpage image">
+            </a> -->
+        </div>
+
+        <!-- <h2>мои работы</h2>
+        <ul class="">
+            <li>
+                <a href="https://paranoiacview.github.io/news/index.html" class="" target="_blank">Поисковик
+                    новостей</a>
+                <p>сайт, предоставляющий возможность искать новости за последние 7 дней по заданному ключевому слову,
+                    и аналитику собранных новостей. Использование Native JS, HTML, CSS, Git, Webpack, GitHub Pages.</p>
+            </li>
+            <li>
+                <a href="https://paranoiacview.github.io/mesto/index.html" class="" target="_blank">Интерактивный
+                    страница с
+                    фотографиями</a>
+                <p>создание сервиса с интерактивной страницей, куда можно добавлять фотографии, удалять их и ставить
+                    лайки. А также - редактировать профиль с предварительной валидацией, открывать картинку в попап.
+                    Подключение проекта к серверу. Использование Git и Webpack.</p>
+            </li>
+            <li>
+                <a href="https://paranoiacview.github.io/trip/index.html" class="" target="_blank">Одностраничный сайт
+                    про
+                    путешествие по России</a>
+                <p>создание одностраничного сайта и его адаптация под различные разрешения, используя макет на Figma.
+                </p>
+            </li>
+            <li>
+                <a href="https://paranoiacview.github.io/studying/index.html" class="" target="_blank">Одностраничный
+                    сайт про
+                    учебу</a>
+                <p>HTML & CSS проект: создание одностраничного сайта, пользуясь брифингом. Использовала БЭМ, flexbox,
+                    grid layout. Работала с анимацией, шрифтами и фрэймами.</p>
+            </li>
+        </ul> -->
+    </section>
+
+    <section class="section" id="skills">
+        <h3 class="">skills</h3>
+        <div class="skills">
+            <p class="skills__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span
+                    class="highlight__skills">JavaScript (ES5)</span> Cras scelerisque fermentum lacus
+                sed laoreet. <span class="highlight__skills">HTML</span> Ut et porttitor enim. <span
+                    class="highlight__skills">CSS</span> Sed suscipit molestie erat
+                feugiat mollis. Nunc eget gravida tortor, eget
+                sollicitudin odio. <span class="highlight__skills">BEM </span>Donec fermentum leo id viverra tempus.
+                <span class="highlight__skills">OOP</span> Curabitur fringilla mattis arcu, vitae elementum
+                odio sollicitudin quis. <span class="highlight__skills">Figma</span> Etiam ut molestie enim, id
+                ultricies
+                nisl. <span class="highlight__skills">Responsive design</span> Ut urna lectus, pharetra eu diam eget,
+                iaculis elementum sem. <span class="highlight__skills">API</span> Proin feugiat ac odio nec ullamcorper.
+            </p>
+            <p class="skills__text">
+                Etiam mi libero, tincidunt eu mollis at, accumsan nec ligula. <span class="highlight__skills">Mobile
+                    design</span> Ut id rutrum odio, non gravida nibh. <span class="highlight__skills">Cross-Browser
+                    Development</span> Mauris
+                lectus magna, congue non viverra sit amet, tincidunt id lectus. <span
+                    class="highlight__skills">Git</span>
+                Morbi mi nisi, porttitor vitae lorem eget,
+                vulputate posuere purus. <span class="highlight__skills">Webpack </span> Orci varius natoque penatibus
+                et
+                magnis dis parturient montes, nascetur ridiculus
+                mus. <span class="highlight__skills">GitHub Pages</span> Duis sodales tempus mollis. <span
+                    class="highlight__skills">Async</span> Aliquam arcu augue,
+                sagittis at ex nec, efficitur venenatis leo. Donec a ex
+                a lacus aliquam malesuada. <span class="highlight__skills">Agile</span> Proin hendrerit neque et
+                eleifend
+                consectetur. Quisque vestibulum bibendum massa
+                et tempus.
+            </p>
+            <p class="skills__text" hidden>
+                Curabitur nec volutpat eros, at vehicula nisi. <span class="highlight__skills">minimalism</span>
+                Interdum
+                et malesuada fames ac ante ipsum primis in faucibus. In fermentum ullamcorper auctor. <span
+                    class="highlight__skills">restoration</span> Vestibulum fermentum sem
+                vitae felis egestas efficitur. <span class="highlight__skills">constructivist
+                    architecture</span> Suspendisse sodales
+                condimentum hendrerit. <span class="highlight__skills">british pop-culture</span> Integer consectetur
+                ante
+                nisl, at egestas est lacinia ac. <span class="highlight__skills">travel</span> Vestibulum iaculis mi nec
+                orci lobortis rhoncus. Mauris sit amet sem sit amet mi aliquam dictum. Curabitur lectus nibh, dictum vel
+                metus a, gravida scelerisque tortor. Nunc eget auctor ex.
+            </p>
+        </div>
+    </section>
+
+    <footer class="section footer">
+        <!-- <p class="footer__copyright">&copy; 2020 irina moysevich</p> -->
+        <!-- <p class="footer__links">
+            <a href="mailto:someone@example.com" class="footer__email" target="_blank">
+                paranoiacview@gmail.com
+            </a></p> -->
+        <p class="footer__links footer__links_social">
+            <a href="mailto:irina.moysevich@gmail.com" class="footer__link" target=" _blank ">
+                <img src="./images/logo__email.png" class="footer__icons" alt="email logo ">
+            </a>
+
+            <a href="https://github.com/irinamsvch" class="footer__link " target="_blank">
+                <img src="./images/logo__github.png" class="footer__icons" alt="github logo ">
+            </a>
+
+            <a href="https://www.linkedin.com/in/irinamoysevich/" class="footer__link" target=" _blank ">
+                <img src="./images/logo__in.png" class="footer__icons" alt="linkedin logo ">
+            </a>
+
+            <a href="https://www.codewars.com/users/paranoiacview/" class="footer__link" target=" _blank ">
+                <img src="./images/logo__codewars.png" class="footer__icons" alt="codewars logo ">
+            </a>
+        </p>
+
+    </footer>
+
+    <script src="./portfolio.js"></script>
+
+</body>
+
+</html>
