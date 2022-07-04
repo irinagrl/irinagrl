@@ -6,7 +6,7 @@ I'm on a new career path to Front-end development. I have a huge love for the fi
 
 - I have knowledge in  JS, HTML, CSS, Git, Webpack, GitHub Pages and learning React.
 
-- I'm a minimalist and a rationalist and I desire to write a beautiful but understandable code.
+- I'm a minimalist and a rationalist and my desire to write a beautiful but understandable code.
 
 - I love new places thus walking around (a lot), travelling, and living in different cities, countries and continents. 
 
