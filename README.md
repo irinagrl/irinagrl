@@ -12,4 +12,4 @@ I'm on a new career path to Front-end development. I have a huge love for the fi
 
 - I love new places thus walking around (a lot), traveling, and living in different cities, countries and continents. 
 
-- Please feel free to contact me by email: irina.moysevich@gmail.com.
+- Please feel free to contact me by email: irigeorgala@gmail.com.
